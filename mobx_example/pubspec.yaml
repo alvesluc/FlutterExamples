@@ -1,0 +1,28 @@
+name: mobx_test
+description: Flutter application with Mobx
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  get_it: 
+  provider:  
+  cupertino_icons: ^0.1.2
+  mobx: 
+  flutter_mobx: 
+
+dev_dependencies:
+  mobx_codegen:
+  build_runner:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  
