@@ -1,6 +1,6 @@
 # mobx_test
 
-Flutter application with Mobx
+Simple Flutter application with MobX.
 
 ## Getting Started
 
