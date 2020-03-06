@@ -1,0 +1,26 @@
+name: mobxexample3
+description: Another MobX example, now with ObservableStream and rxdart.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^0.1.2
+  mobx: 0.4.0+1
+  rxdart:  ^0.23.1
+  flutter_mobx: ^0.3.6
+
+dev_dependencies:
+  mobx_codegen: 0.4.0+1
+  build_runner: ^1.7.3
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
