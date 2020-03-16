@@ -1,0 +1,23 @@
+name: dio_node_example
+description: Simple Flutter project that consumes a Rest API built with Node.js.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^3.0.9
+  shared_preferences: ^0.5.6+2
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
